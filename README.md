@@ -1,4 +1,5 @@
 # DLoRA-TrOCR
+[Paper:](https://arxiv.org/abs/2404.12734)
 
 ## Architecture:
 In the Transformer layer of the image encoder, **DoRA** weight was embedded into the multi-head attention weight part. In the Transformer layer of the text decoder, the **LoRA** weights are partially embedded for the multi-head attention weights and the masked multi-head attention weights.
@@ -6,8 +7,6 @@ The overall architecture of the method is as follows,
 
 ![架构](https://github.com/VceChang/DLoRA-TrOCR/assets/87841835/b8932d51-4645-41af-98f2-6dc2e7bc6213)
 
-## Paper:
-[DLoRA-TrOCR: Mixed Text Mode Optical Character Recognition Based On Transformer](https://arxiv.org/abs/2404.12734)
 
 
 ## Usage:
