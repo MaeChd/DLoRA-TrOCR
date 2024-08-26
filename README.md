@@ -5,7 +5,7 @@
 In the Transformer layer of the image encoder, **DoRA** weight was embedded into the multi-head attention weight part. In the Transformer layer of the text decoder, the **LoRA** weights are partially embedded for the multi-head attention weights and the masked multi-head attention weights.
 The overall architecture of the method is as follows,
 
-![架构](https://github.com/VceChang/DLoRA-TrOCR/project/module.png)
+![架构](/project/module.png)
 
 
 
